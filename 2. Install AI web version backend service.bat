@@ -5,16 +5,16 @@ cd docker
 chcp 65001
 setlocal EnableDelayedExpansion
 echo.
-echo "请打开 Docker Desktop  查看Docker引擎是否启动完成。确认请回车继续。"
+echo "Please open Docker Desktop to check whether the Docker engine has started. Please press Enter to continue."
 echo.
-echo "可能需要外网环境。联系我们 远程提供服务：微信 youkpan 。 email: tel_pan@126.com"
+echo "You may need an external network environment. Contact us for remote service: WeChat youkpan. Email: tel_pan@126.com"
 echo.
-echo  若下载失败， 可查询相关 Docker 国内镜像源配置信息。
+echo If the download fails, you can query the relevant Docker domestic mirror source configuration information.
 echo.
 
 
 set docker="C:\Program Files\Docker\Docker\Docker Desktop.exe"
-IF EXIST %docker% ( call %docker% ) ELSE ( echo %docker% 文件不存在 )
+IF EXIST %docker% ( call %docker% ) ELSE ( echo %docker% Docker desktop not exist )
 
 
 pause
