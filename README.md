@@ -1,6 +1,6 @@
 Installation and use instructions for Zhanying AI local service
 
-[中文版 安装说明](/tree/master/)
+[中文版 安装说明](../../tree/master)
 
 At present, enterprises have an increasing demand for AI. How to create an enterprise AI workflow, use AI to assist in information management, improve efficiency, and make software tools more controllable, low-cost, localized, and large-scale use is a better way to improve enterprise information efficiency. Shenzhen Zhanying has been investing a lot of resources in this field to help enterprises obtain more AI implementation and applications. How to find the most suitable products and services in terms of cost and efficiency, experience, and controllable product use is the direction that Shenzhen Zhanying Technology has been exploring. Now we have launched local AI services, hoping to bring you better AI service capabilities through our free partner series products. At the same time, you are also welcome to use our Zhanying online AI service: <https://ai.zyinfo.pro. >
 
