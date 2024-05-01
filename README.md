@@ -43,7 +43,7 @@ Installation and use instructions for Zhanying AI local service
 
 
 
-![descript](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(1).png)
+![descript](/files/images/1%20(1).png)
 
 
 
@@ -55,7 +55,7 @@ Installation and use instructions for Zhanying AI local service
 
 
 
-![descript](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(2).png)
+![descript](/files/images/1%20(2).png)
 
 
 
@@ -67,7 +67,7 @@ AI服务软件包资源如图所示（按文件名从小到大排序）
 
 
 
-![](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(3).png)
+![](/files/images/1%20(3).png)
 
 
 
@@ -113,7 +113,7 @@ AI服务软件包资源如图所示（按文件名从小到大排序）
 
 
 
-![](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(4).png)
+![](/files/images/1%20(4).png)
 
 
 
@@ -153,7 +153,7 @@ AI服务软件包资源如图所示（按文件名从小到大排序）
 
 
 
-![descript](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(5).png)
+![descript](/files/images/1%20(5).png)
 
 
 
@@ -165,7 +165,7 @@ AI服务软件包资源如图所示（按文件名从小到大排序）
 
 
 
-![](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(6).png)
+![](/files/images/1%20(6).png)
 
 
 
@@ -177,7 +177,7 @@ AI服务软件包资源如图所示（按文件名从小到大排序）
 
 
 
-![](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(7).png)
+![](/files/images/1%20(7).png)
 
 
 
@@ -185,7 +185,7 @@ AI服务软件包资源如图所示（按文件名从小到大排序）
 
 
 
-![](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(8).png)
+![](/files/images/1%20(8).png)
 
 
 
@@ -193,7 +193,7 @@ AI服务软件包资源如图所示（按文件名从小到大排序）
 
 
 
-![](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(9).png)
+![](/files/images/1%20(9).png)
 
 
 
@@ -201,7 +201,7 @@ AI服务软件包资源如图所示（按文件名从小到大排序）
 
 
 
-![](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(10).png)
+![](/files/images/1%20(10).png)
 
 
 
@@ -209,7 +209,7 @@ AI服务软件包资源如图所示（按文件名从小到大排序）
 
 
 
-![](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(11).png)
+![](/files/images/1%20(11).png)
 
 
 
@@ -233,7 +233,7 @@ API 的IP替换成你自己的选择的IP信息。
 
 
 
-![descript](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(12).png)
+![descript](/files/images/1%20(12).png)
 
 
 
@@ -265,7 +265,7 @@ API 的IP替换成你自己的选择的IP信息。
 
 
 
-![descript](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(13).png)
+![descript](/files/images/1%20(13).png)
 
 
 
@@ -281,7 +281,7 @@ API 的IP替换成你自己的选择的IP信息。
 
 
 
-![](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(14).png)
+![](/files/images/1%20(14).png)
 
 
 
@@ -289,7 +289,7 @@ API 的IP替换成你自己的选择的IP信息。
 
 
 
-![](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(15).png)
+![](/files/images/1%20(15).png)
 
 
 
@@ -297,7 +297,7 @@ API 的IP替换成你自己的选择的IP信息。
 
 
 
-![](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(16).png)
+![](/files/images/1%20(16).png)
 
 
 
@@ -305,7 +305,7 @@ API 的IP替换成你自己的选择的IP信息。
 
 
 
-![](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(17).png)
+![](/files/images/1%20(17).png)
 
 
 
@@ -317,7 +317,7 @@ API 的IP替换成你自己的选择的IP信息。
 
 
 
-![](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(18).png)
+![](/files/images/1%20(18).png)
 
 
 
@@ -325,7 +325,7 @@ API 的IP替换成你自己的选择的IP信息。
 
 
 
-![](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(19).png)
+![](/files/images/1%20(19).png)
 
 
 
@@ -333,7 +333,7 @@ API 的IP替换成你自己的选择的IP信息。
 
 
 
-![](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(20).png)
+![](/files/images/1%20(20).png)
 
 
 
@@ -341,7 +341,7 @@ API 的IP替换成你自己的选择的IP信息。
 
 
 
-![](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(21).png)
+![](/files/images/1%20(21).png)
 
 
 
@@ -349,7 +349,7 @@ API 的IP替换成你自己的选择的IP信息。
 
 
 
-![](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(22).png)
+![](/files/images/1%20(22).png)
 
 
 
@@ -365,7 +365,7 @@ API 的IP替换成你自己的选择的IP信息。
 
 
 
-![](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(23).png)
+![](/files/images/1%20(23).png)
 
 
 
@@ -377,7 +377,7 @@ API 的IP替换成你自己的选择的IP信息。
 
 
 
-![](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(24).png)
+![](/files/images/1%20(24).png)
 
 
 
@@ -389,7 +389,7 @@ API 的IP替换成你自己的选择的IP信息。
 
 
 
-![](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(25).png)
+![](/files/images/1%20(25).png)
 
 
 
@@ -397,7 +397,7 @@ API 的IP替换成你自己的选择的IP信息。
 
 
 
-![](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(26).png)
+![](/files/images/1%20(26).png)
 
 
 
@@ -405,7 +405,7 @@ API 的IP替换成你自己的选择的IP信息。
 
 
 
-![](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(27).png)
+![](/files/images/1%20(27).png)
 
 
 
@@ -413,7 +413,7 @@ API 的IP替换成你自己的选择的IP信息。
 
 
 
-![](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(28).png)
+![](/files/images/1%20(28).png)
 
 
 
@@ -421,7 +421,7 @@ API 的IP替换成你自己的选择的IP信息。
 
 
 
-![](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(29).png)
+![](/files/images/1%20(29).png)
 
 
 
@@ -441,7 +441,7 @@ API 的IP替换成你自己的选择的IP信息。
 
 
 
-![descript](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(30).png)
+![descript](/files/images/1%20(30).png)
 
 
 
@@ -453,7 +453,7 @@ API 的IP替换成你自己的选择的IP信息。
 
 
 
-![descript](https://gitee.com/hayoou/ZY_local_AI_server/raw/master/files/images/1%20(31).png)
+![descript](/files/images/1%20(31).png)
 
 
 
