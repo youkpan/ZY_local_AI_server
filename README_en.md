@@ -21,19 +21,19 @@ Installation process:
 
 First download the installation package V1.7, V1.8, because V1.8 is an update package. The content of V1.7 needs to be overwritten. After V1.7 is unzipped, move V1.8 rar to the folder and click to unzip to the current folder:
 
-![descript](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(1).png)
+![descript](/files/images/1%20(1).png)
 
 Unzip to the current folder and overwrite the files in the current folder
 
 (Click automatic update.bat for subsequent updates)
 
-![descript](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(2).png)
+![descript](/files/images/1%20(2).png)
 
 The AI ​​service software package resources are shown in the figure (sorted by file name from small to large)
 
 1. **Install Docker Desktop Installer.exe**
 
-![](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(3).png)
+![](/files/images/1%20(3).png)
 
 Or go to: <https://docs.docker.com/desktop/install/windows-install/ to get the latest version. >
 
@@ -51,7 +51,7 @@ WeChat youkpan . Email: <tel_pan@126.com>
 
 2. **Click "3.1 Select the IP of AI large model service and save.bat"**
 
-![](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(4).png)
+![](/files/images/1%20(4).png)
 
 **Configure AI model service IP example (select your wireless network card or wired network card IP)**
 
@@ -69,35 +69,35 @@ You are also welcome to experience our Zhanying Technology's AI web version serv
 
 A window like this will appear at this time. **Please do not close it**:
 
-![descript](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(5).png)
+![descript](/files/images/1%20(5).png)
 
 This is the backend program of the local AI service and needs to be kept running
 
 In the browser, under the URL <http://127.0.0.1>, the following interface will appear:
 
-![](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(6).png)
+![](/files/images/1%20(6).png)
 
 Set up the management account of the AI ​​service
 
 After registration, log in and you can use it.
 
-![](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(7).png)
+![](/files/images/1%20(7).png)
 
 After entering, you can see the following work page
 
-![](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(8).png)
+![](/files/images/1%20(8).png)
 
 Click Settings in the upper right corner to start setting up our local AI service
 
-![](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(9).png)
+![](/files/images/1%20(9).png)
 
 Select a model provider
 
-![](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(10).png)
+![](/files/images/1%20(10).png)
 
 Find openAI Adapted interface
 
-![](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(11).png)
+![](/files/images/1%20(11).png)
 
 For the model, fill in zhangying-AI-llm, and for the key, fill in no-key.
 
@@ -109,7 +109,7 @@ Click Save. When configuring for the first time, the backend service will start,
 
 If you cannot connect, you can try to open the Windows system port first (7900, 7901 has provided automated commands):
 
-![descript](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(12).png)
+![descript](/files/images/1%20(12).png)
 
 Find: Open local AI related ports, right-click and run with administrator privileges.bat
 
@@ -125,7 +125,7 @@ If it still doesn't work, this problem will basically not occur,
 
 You can also set up docker desktop and the network of the internal container, click the settings in the upper right corner:
 
-![descript](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(13).png)
+![descript](/files/images/1%20(13).png)
 
 Try to set it to a network that is compatible with you
 
@@ -133,41 +133,41 @@ For example, change: 192.168.50.0/24 to: 192.168.18.0/24
 
 Suppose our IP is 192.168.18.223
 
-![](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(14).png)
+![](/files/images/1%20(14).png)
 
 Next, let's create a chat dialogue and try it
 
-![](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(15).png)
+![](/files/images/1%20(15).png)
 
 In the upper right corner Select your AI service,
 
-![](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(16).png)
+![](/files/images/1%20(16).png)
 
 This may be easier to use. The last option is to set the length of each AI output. Generally, it is within 600. If it does not output enough, tell it to continue.
 
-![](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(17).png)
+![](/files/images/1%20(17).png)
 
 Type hello on the right and you will see the reply!
 
 The AI ​​service running locally is working properly!
 
-![](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(18).png)
+![](/files/images/1%20(18).png)
 
 Next, you can experience the products by yourself. There are many templates
 
-![](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(19).png)
+![](/files/images/1%20(19).png)
 
 Programming, collaboration assistant
 
-![](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(20).png)
+![](/files/images/1%20(20).png)
 
 Advanced assistant
 
-![](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(21).png)
+![](/files/images/1%20(21).png)
 
 Workflow, etc.
 
-![](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(22).png)
+![](/files/images/1%20(22).png)
 
 You can also add a local knowledge base (the information is stored locally, and the local search interface needs to be enabled)
 
@@ -175,23 +175,23 @@ Add a local information search interface:
 
 Add a local information search interface, click Settings:
 
-![](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(23).png)
+![](/files/images/1%20(23).png)
 
 &nbsp;
 
 Double-click to open: Search service (optional).bat
 
-![](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(24).png)
+![](/files/images/1%20(24).png)
 
 Example Fill in zhangying-AI-embedding for the model and no-key for the key.
 
 After filling in, return to the original knowledge base interface
 
-![](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(25).png)
+![](/files/images/1%20(25).png)
 
 Try it with the default settings
 
-![](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(26).png)
+![](/files/images/1%20(26).png)
 
 Import local document data test
 
@@ -199,23 +199,23 @@ Import local document data test
 
 View the file list
 
-![](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(28).png)
+![](/files/images/1%20(28).png)
 
 You can view relevant information
 
-![](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(29).png)
+![](/files/images/1%20(29).png)
 
 You can also experience the latest version of AI workflow
 
 Let AI automatically execute according to your process step by step to help you handle repetitive and medium-difficulty tasks. Start your free experience now! **Recommend using our Zhanying AI online service** (Visual AI Process Studio):
 
-![descript](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(30).png)
+![descript](/files/images/1%20(30).png)
 
 Zhanying's AI workflow video automatic editing
 
 No longer worry about shooting and storing too much video material, you can shoot with confidence~
 
-![descript](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/master/files/images/1%20(31).png)
+![descript](/files/images/1%20(31).png)
 
 AI automatic creation
 
