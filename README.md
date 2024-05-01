@@ -1,9 +1,9 @@
 展映AI本地服务安装、使用说明
 Installation and use instructions for Zhanying AI local service
 
-[English branch](https://github.com/youkpan/ZY_local_AI_server/tree/english)
+[English branch](https://gitee.com/hayoou/ZY_local_AI_server/tree/english/)
 
-[English readme](https://github.com/youkpan/ZY_local_AI_server/blob/master/README_en.md)
+[English readme](https://gitee.com/hayoou/ZY_local_AI_server/blob/master/README_en.md)
 
 
 当前企业对AI需求越来越高，如何创建一个企业AI工作流程，用AI辅助参与信息管理，提升效率，同时软件工具更可控，做到低成本、本地化、大规模使用是提升企业信息效率的一个更好的方式。深圳展映在这个领域一直投入大量资源帮助企业获得更多AI落地及应用。如何能在成本和效率、体验上、产品使用可控找到最适合的产品及服务，是我们深圳展映科技一直探索的方向。现在我们推出了本地AI服务，希望通过我们免费的合作伙伴系列产品为大家带来更好的AI服务能力。同时也欢迎使用我们展映在线AI服务：<https://ai.zyinfo.pro>
