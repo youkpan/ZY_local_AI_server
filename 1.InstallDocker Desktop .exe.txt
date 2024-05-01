@@ -1,0 +1,2 @@
+Double-click to install
+If you find that you cannot close Alibaba Security Cloud, you can download Huorong software and then destroy the AliProtect folder

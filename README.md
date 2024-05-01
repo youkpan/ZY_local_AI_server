@@ -1,488 +1,234 @@
-展映AI本地服务安装、使用说明
 Installation and use instructions for Zhanying AI local service
 
-[English version](https://github.com/youkpan/ZY_local_AI_server/blob/master/README_en.md)
+At present, enterprises have an increasing demand for AI. How to create an enterprise AI workflow, use AI to assist in information management, improve efficiency, and make software tools more controllable, low-cost, localized, and large-scale use is a better way to improve enterprise information efficiency. Shenzhen Zhanying has been investing a lot of resources in this field to help enterprises obtain more AI implementation and applications. How to find the most suitable products and services in terms of cost and efficiency, experience, and controllable product use is the direction that Shenzhen Zhanying Technology has been exploring. Now we have launched local AI services, hoping to bring you better AI service capabilities through our free partner series products. At the same time, you are also welcome to use our Zhanying online AI service: <https://ai.zyinfo.pro. >
 
-当前企业对AI需求越来越高，如何创建一个企业AI工作流程，用AI辅助参与信息管理，提升效率，同时软件工具更可控，做到低成本、本地化、大规模使用是提升企业信息效率的一个更好的方式。深圳展映在这个领域一直投入大量资源帮助企业获得更多AI落地及应用。如何能在成本和效率、体验上、产品使用可控找到最适合的产品及服务，是我们深圳展映科技一直探索的方向。现在我们推出了本地AI服务，希望通过我们免费的合作伙伴系列产品为大家带来更好的AI服务能力。同时也欢迎使用我们展映在线AI服务：<https://ai.zyinfo.pro。>
+This AI service is relatively powerful, and it can run on Windows systems without high-end GPUs. It requires less memory and CPU calculations, and can have faster AI response speeds and better quality, which meets our normal scenarios of retrieval, article generation, AI workflows and other scenarios. In the future, we will continue to promote the update of related products, recommend the best products and new dynamics. Welcome to follow our WeChat public account: Zhanying Technology to get the latest dynamics. You are also welcome to interact with our customer service~
 
+Special note: Some of the partner products are from public products in the market, and we will choose product suppliers with at least hundreds of thousands of users and customers. Our own software and services have undergone serious security audits, and we try not to use third-party system tools to ensure service quality and security. For each software package, we have consulted the developers and some codes and user feedback behind it, and paid a lot of cost and effort to provide an extra layer of protection for corporate users. OK, now let's learn how to install and experience the latest local AI service~
 
+Tips: The latest update address of this document: <https://docs.qq.com/doc/DS3Bsa1ZUWU1JYVhS>
 
-本次AI服务功能比较强大，而且不需要高端GPU 也能在windows系统上运行，需要较少的内存及CPU计算，并且能有较快的AI回复速度，较好的质量，满足我们的正常场景下 检索、文章生成、AI工作流等场景的使用。后续我们一直也会推进相关产品的更新、推荐最好的产品及新的动态，欢迎关注我们微信公众号：展映科技 ，获取最新的动态。也欢迎与我们客服互动~
+Download products related to this document:
+[Google drive](https://drive.google.com/drive/folders/1PYaQ8d1Dj1TXJvy4AJPvClls1VkPehvk?usp=sharing)
 
+Baidu Link: <https://pan.baidu.com/s/1k5jnh36kcU0kOEE3IDivMQ?pwd=5566> Extraction code: 5566
 
+Or link: <https://pan.quark.cn/s/8d413221daff>
 
-特别说明：部分合作方产品来自市场公开产品，都会选择至少有数十万用户、客户的产品供应方。我们自有的软件、服务都经过认真的安全审核，尽可能不使用第三方的系统工具，保障服务质量和安全。每个软件包我们都查阅了背后的开发者和部分代码及用户反馈，付出了较多的成本和精力，为的是给企业用户提供更多一层保障。
+Our Project is based on [dify.ai](https://github.com/langgenius/dify)
 
+Installation process:
 
-
-好的，现在开始了解下如何安装及体验最新的本地AI服务吧~
-
-
-
-小提示：本文档最新更新地址：<https://docs.qq.com/doc/DS3Bsa1ZUWU1JYVhS>
-
-
-
-本说明文档相关产品的下载：
-
-
-
-链接：<https://pan.baidu.com/s/1k5jnh36kcU0kOEE3IDivMQ?pwd=5566> 提取码：5566
-
-
-
-或链接：<https://pan.quark.cn/s/8d413221daff>
-
-
-
-安装流程：
-
-
-
-先下载安装包 V1.7 、V1.8，由于V1.8 是更新包。需要覆盖V1.7的内容。V1.7解压后，将V1.8 rar 移动到文件夹中，点击解压到当前文件夹:
-
-
+First download the installation package V1.7, V1.8, because V1.8 is an update package. The content of V1.7 needs to be overwritten. After V1.7 is unzipped, move V1.8 rar to the folder and click to unzip to the current folder:
 
 ![descript](/files/images/1%20(1).png)
 
+Unzip to the current folder and overwrite the files in the current folder
 
-
-解压到当前文件夹、覆盖当前文件夹文件
-
-
-
-（后续更新可点击自动更新.bat）
-
-
+(Click automatic update.bat for subsequent updates)
 
 ![descript](/files/images/1%20(2).png)
 
+The AI ​​service software package resources are shown in the figure (sorted by file name from small to large)
 
-
-AI服务软件包资源如图所示（按文件名从小到大排序）
-
-
-
-1. **安装 Docker Desktop Installer.exe**
-
-
+1. **Install Docker Desktop Installer.exe**
 
 ![](/files/images/1%20(3).png)
 
+Or go to: <https://docs.docker.com/desktop/install/windows-install/ to get the latest version. >
 
+After the installation is complete, click Run and you will see an interface similar to the above. 1. **Start Docker engine**
 
-或者前往：<https://docs.docker.com/desktop/install/windows-install/获取最新版本。>
+Pay attention to the lower left corner of the above picture to see if it is running. 1. **Click Install AI web version backend service.bat**
 
+You can also click that directly for subsequent backend upgrades
 
+If you cannot pull a new image, you may need to configure a domestic source. If you really cannot use it, you may need an external network environment. You can contact us to provide remote solutions for partners:
 
-安装完毕后点击运行，可看到类似如上界面。
+WeChat youkpan . Email: <tel_pan@126.com>
 
+1. **Click "3.0 Open local AI related ports, right-click and run with administrator privileges"**
 
-
-1. **启动 Docker engine**
-
-
-
-注意看上图左下角，是否是 running 正在运行。
-
-
-
-1. **点击 安装AI网页版后端服务.bat**
-
-
-
-后续后端升级也可直接点击那个
-
-
-
-如果无法拉取新的镜像，可能需要配置国内源。
-
-
-
-若实在无法使用，可能需要外网环境。可联系我们远程提供合作伙伴的解决方案：
-
-
-
-微信 youkpan 。 Email: <tel_pan@126.com>
-
-
-
-1. **点击 “3.0 开放本地 AI 相关端口，点击右键 使用管理员权限运行”**
-
-2. **点击 "3.1选择AI大模型服务的IP 并保存.bat"**
-
-
+2. **Click "3.1 Select the IP of AI large model service and save.bat"**
 
 ![](/files/images/1%20(4).png)
 
+**Configure AI model service IP example (select your wireless network card or wired network card IP)**
 
+You can enter ipconfig in the command line to check your local network card LAN address for confirmation. (For example, wireless network card, wired network card, etc., but not virtual network card)
 
-**配置AI模型服务IP 示例（选择你的无线网卡或有线网卡IP）**
+As shown in the figure: The local interface compatible with openAI service is: <http://192.168.18.223:7900/v1> (example)
 
+1. **Click Start local AI.bat**
 
+**You can run this command directly later, and you can right-click to send it to the desktop shortcut**
 
-你可以在命令行输入 ipconfig 查看你的本地网卡 局域网地址确认。（比如无线网卡，有线网卡等，但不能是虚拟网卡）
+Several websites will be opened automatically, and the last one is the local AI service page. You can also open <http://127.0.0.1 manually. >
 
+You are also welcome to experience our Zhanying Technology's AI web version service <https://ai.zyinfo.pro> and flow chart (intelligent video editing: <https://docs.qq.com/doc/DS3BlbE9JcWZ6TkNM). >
 
-
-如图：本地兼容openAI 服务的接口是：<http://192.168.18.223:7900/v1> （示例）
-
-
-
-1. **点击 启动本地AI.bat**
-
-
-
-**后续可直接运行此命令，可点击右键发送到桌面快捷方式**
-
-
-
-会自动打开几个网站，最后那个是本地的AI服务页面了。
-
-
-
-也可以手动打开 <http://127.0.0.1。>
-
-
-
-同时也欢迎体验我们展映科技的AI网页版服务 <https://ai.zyinfo.pro> 以及流程图（智能视频剪辑：<https://docs.qq.com/doc/DS3BlbE9JcWZ6TkNM）。>
-
-
-
-此时会出现一个这样的窗口，**请不要关闭它**：
-
-
+A window like this will appear at this time. **Please do not close it**:
 
 ![descript](/files/images/1%20(5).png)
 
+This is the backend program of the local AI service and needs to be kept running
 
-
-这是本地AI服务的后端程序，需要保持运行
-
-
-
-在浏览器中，<http://127.0.0.1> 的网址下，会出现如下界面：
-
-
+In the browser, under the URL <http://127.0.0.1>, the following interface will appear:
 
 ![](/files/images/1%20(6).png)
 
+Set up the management account of the AI ​​service
 
-
-设置AI服务的管理账户
-
-
-
-注册后，再登录即可使用了。
-
-
+After registration, log in and you can use it.
 
 ![](/files/images/1%20(7).png)
 
-
-
-进入后，可看到如下工作页面
-
-
+After entering, you can see the following work page
 
 ![](/files/images/1%20(8).png)
 
-
-
-点击右上角 设置，开始设置我们本地AI服务
-
-
+Click Settings in the upper right corner to start setting up our local AI service
 
 ![](/files/images/1%20(9).png)
 
-
-
-选择模型供应商
-
-
+Select a model provider
 
 ![](/files/images/1%20(10).png)
 
-
-
-找到openAI 适配的接口
-
-
+Find openAI Adapted interface
 
 ![](/files/images/1%20(11).png)
 
+For the model, fill in zhangying-AI-llm, and for the key, fill in no-key.
 
+Replace the API IP with the IP information of your choice.
 
-模型填写zhangying-AI-llm，key填写no-key。
+For example, <http://192.168.18.223:7900/v1> (note that there should be no space in the middle of the URL, replace the red part)
 
+Click Save. When configuring for the first time, the backend service will start, which may take some time. If there is no response, try again.
 
-
-API 的IP替换成你自己的选择的IP信息。
-
-
-
-比如<http://192.168.18.223:7900/v1> （注意网址中间不能有空格，替换红色部分）
-
-
-
-点击保存即可,第一次配置时，后端服务会启动，可能需要点时间，若无响应，再试试。
-
-
-
-若无法连接可以先尝试开放windows系统端口（7900 ,7901 已提供自动化命令）：
-
-
+If you cannot connect, you can try to open the Windows system port first (7900, 7901 has provided automated commands):
 
 ![descript](/files/images/1%20(12).png)
 
+Find: Open local AI related ports, right-click and run with administrator privileges.bat
 
+Right-click and run as administrator
 
-找到：开放本地 AI 相关端口，点击右键 使用管理员权限运行.bat
+You can use: <https://v.stylee.top:8899/llm_api/test/test/qwen/v1> instead of testing
 
+**It is recommended to use our AI service online interface**, which has higher quality and can also choose more than 30 advanced AI service models:
 
+Large Model Interface of Exhibition Smart Assistant LLM API
 
-点击右键用管理员方式运行
+If it still doesn't work, this problem will basically not occur,
 
-
-
-可使用：<https://v.stylee.top:8899/llm_api/test/test/qwen/v1> 代替测试
-
-
-
-**推荐使用我们的AI服务在线接口**，质量更高，还能选择30多款高级AI服务模型：
-
-
-
-展映智慧助手大模型接口 LLM API
-
-
-
-如果还是不行，基本不出现这个问题了，
-
-
-
-也可设置docker desktop与内部容器的网络，点击右上角设置：
-
-
+You can also set up docker desktop and the network of the internal container, click the settings in the upper right corner:
 
 ![descript](/files/images/1%20(13).png)
 
+Try to set it to a network that is compatible with you
 
+For example, change: 192.168.50.0/24 to: 192.168.18.0/24
 
-将其设定为与你兼容的网络试试
-
-
-
-比如 将：192.168.50.0/24 改为：192.168.18.0/24
-
-
-
-假设我们IP 是192.168.18.223
-
-
+Suppose our IP is 192.168.18.223
 
 ![](/files/images/1%20(14).png)
 
-
-
-接着，我们创建一个聊天对话试试
-
-
+Next, let's create a chat dialogue and try it
 
 ![](/files/images/1%20(15).png)
 
-
-
-在右上角 选择你的AI服务，
-
-
+In the upper right corner Select your AI service,
 
 ![](/files/images/1%20(16).png)
 
-
-
-这样填可能比较简单好用，最后一个选项是用来设定每次AI输出长度。一般在600以内，它如果输出不够再和它说 继续。
-
-
+This may be easier to use. The last option is to set the length of each AI output. Generally, it is within 600. If it does not output enough, tell it to continue.
 
 ![](/files/images/1%20(17).png)
 
+Type hello on the right and you will see the reply!
 
-
-在右侧输入 你好，就能看到回复了！
-
-
-
-在你本地运行的AI服务正常工作啦！
-
-
+The AI ​​service running locally is working properly!
 
 ![](/files/images/1%20(18).png)
 
-
-
-接下来可以自行体验里面的产品吧，有多种模板
-
-
+Next, you can experience the products by yourself. There are many templates
 
 ![](/files/images/1%20(19).png)
 
-
-
-编程、协作 助手
-
-
+Programming, collaboration assistant
 
 ![](/files/images/1%20(20).png)
 
-
-
-高级版助理
-
-
+Advanced assistant
 
 ![](/files/images/1%20(21).png)
 
-
-
-工作流等
-
-
+Workflow, etc.
 
 ![](/files/images/1%20(22).png)
 
+You can also add a local knowledge base (the information is stored locally, and the local search interface needs to be enabled)
 
+Add a local information search interface:
 
-还可以添加本地知识库（信息都保存在本地，需要开启本地检索接口）
-
-
-
-添加本地信息检索接口：
-
-
-
-添加本地信息检索接口，点击设置：
-
-
+Add a local information search interface, click Settings:
 
 ![](/files/images/1%20(23).png)
 
-
-
 &nbsp;
 
-
-
-双击打开：检索服务（可选）.bat
-
-
+Double-click to open: Search service (optional).bat
 
 ![](/files/images/1%20(24).png)
 
+Example Fill in zhangying-AI-embedding for the model and no-key for the key.
 
-
-示例 模型填写zhangying-AI-embedding，key填写no-key。
-
-
-
-填写完毕后，回到原来知识库界面
-
-
+After filling in, return to the original knowledge base interface
 
 ![](/files/images/1%20(25).png)
 
-
-
-按默认设置试试
-
-
+Try it with the default settings
 
 ![](/files/images/1%20(26).png)
 
+Import local document data test
 
+![](https://raw.githubusercontent.com/youkpan/ZY_local_AI_server/mas ter/files/images/1%20(27).png)
 
-导入本地文档数据测试
-
-
-
-![](/files/images/1%20(27).png)
-
-
-
-查看文件列表
-
-
+View the file list
 
 ![](/files/images/1%20(28).png)
 
-
-
-即可查看到相关信息
-
-
+You can view relevant information
 
 ![](/files/images/1%20(29).png)
 
+You can also experience the latest version of AI workflow
 
-
-同时也可体验最新版的AI工作流
-
-
-
-让AI一步步按照你的流程自动执行，帮助你处理重复中等难度的工作。
-
-
-
-现在开始自由体验吧！
-
-
-
-**推荐使用我们的展映AI在线服务**（可视化AI流程工作室）：
-
-
+Let AI automatically execute according to your process step by step to help you handle repetitive and medium-difficulty tasks. Start your free experience now! **Recommend using our Zhanying AI online service** (Visual AI Process Studio):
 
 ![descript](/files/images/1%20(30).png)
 
+Zhanying's AI workflow video automatic editing
 
-
-展映的AI工作流视频自动剪辑
-
-
-
-再也不担心拍摄、存放太多视频素材了，可以放心拍~
-
-
+No longer worry about shooting and storing too much video material, you can shoot with confidence~
 
 ![descript](/files/images/1%20(31).png)
 
+AI automatic creation
 
+Please refer to:
 
-AI自动创作
+Zhanying Visual AI Workflow Design Tool Instructions
 
+Welcome to contact us:
 
-
-欢迎参阅：
-
-
-
-展映可视化AI工作流设计工具 使用说明
-
-
-
-欢迎联系我们：
-
-
-
-深圳展映科技
-
-
+Shenzhen Zhanying Technology
 
 <http://zyinfo.pro>
 
-
-
 Email: [tel_pan@126.com](mailto:tel_pan@126.com)
 
-
-
-微信：youkpan
+WeChat: youkpan
