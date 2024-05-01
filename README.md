@@ -1,7 +1,7 @@
 展映AI本地服务安装、使用说明
 Installation and use instructions for Zhanying AI local service
 
-[English branch](/tree/english/)
+[English branch](https://github.com/youkpan/ZY_local_AI_server/tree/english)
 
 [English readme](https://github.com/youkpan/ZY_local_AI_server/blob/master/README_en.md)
 
